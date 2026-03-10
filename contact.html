@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Zimbabwe | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <h1>Explore Zimbabwe</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="culture.html">Culture</a></li>
+            <li><a href="wildlife.html">Wildlife</a></li>
+            <li><a href="travel.html">Travel Info</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            
+        </ul>
+    </nav>
+</header>
+
+<section class="content">
+    <h2>Contact Us</h2>
+    <p>Use the form below to make an inquiry or request information.</p>
+
+    <form action="https://formspree.io/f/xrbrznbn" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country">
+
+        <label for="inquiry">Type of Inquiry:</label>
+        <select id="inquiry" name="inquiry">
+            <option>Tour Packages</option>
+            <option>Accommodation</option>
+            <option>General Information</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <input type="submit" value="Submit Inquiry">
+    <div class="contact-map">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953333.2434982463!2d25.95022357504355!3d-19.00329059254685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a5a79e5b1b89%3A0x76eea7a59edcf7f!2sZimbabwe!5e0!3m2!1sen!2suk!4v1731189940495!5m2!1sen!2suk"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</div>
+    </form>
+</section>
+
+<footer>
+    <p>© 2025 Explore Zimbabwe | Images: Unsplash.com</p>
+</footer>
+</body>
+</html>
